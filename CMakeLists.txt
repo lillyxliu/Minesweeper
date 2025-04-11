@@ -3,7 +3,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 
-project(Minesweeper_Test)
+project(Minesweeper)
 
 
 ## If you want to link SFML statically
@@ -15,5 +15,5 @@ set(SFML_DIR "C:/Users/lilly/CLionProjects/SFML-2.5.1/lib/cmake/SFML")
 
 
 find_package(SFML 2.5.1 COMPONENTS system window graphics audio REQUIRED)
-add_executable(Minesweeper_Test main.cpp)
-target_link_libraries(Minesweeper_Test sfml-system sfml-window sfml-graphics sfml-audio)
+add_executable(Minesweeper main.cpp)
+target_link_libraries(Minesweeper sfml-system sfml-window sfml-graphics sfml-audio)
